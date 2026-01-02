@@ -135,15 +135,16 @@ img {
     margin-bottom: 40px;
 }
 
-.hero-supplementary-label {
-    font-size: 1rem;
+.hero-target-text {
+    font-size: 0.95rem;
     color: var(--text-dim);
-    margin-bottom: 24px;
+    margin-top: 24px;
+    margin-bottom: 8px;
     line-height: 1.6;
     font-weight: 400;
 }
 
-.hero-supplementary-label .highlight {
+.hero-target-text .highlight {
     font-weight: 600;
     color: var(--text-light);
 }
