@@ -138,8 +138,7 @@ img {
 .hero-target-text {
     font-size: 0.95rem;
     color: var(--text-dim);
-    margin-top: 24px;
-    margin-bottom: 8px;
+    margin-bottom: 20px;
     line-height: 1.6;
     font-weight: 400;
 }
