@@ -135,6 +135,19 @@ img {
     margin-bottom: 40px;
 }
 
+.hero-supplementary-label {
+    font-size: 1rem;
+    color: var(--text-dim);
+    margin-bottom: 24px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+.hero-supplementary-label .highlight {
+    font-weight: 600;
+    color: var(--text-light);
+}
+
 .hero-image {
     position: relative;
 }
@@ -454,6 +467,7 @@ footer {
     color: var(--text-dim);
     font-weight: 500;
 }
+
 /* Consultation Benefits */
 .consultation-benefits {
     padding: var(--section-padding);
@@ -668,7 +682,8 @@ footer {
     margin: 10px auto 0;
 }
 
-.offer-benefits, .offer-target {
+.offer-benefits,
+.offer-target {
     margin-bottom: 80px;
 }
 
