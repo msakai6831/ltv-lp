@@ -4,352 +4,346 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>コミュニティを活用した継続率・売上の仕組み化 | Community Strategy 2025</title>
-    <meta name="description" content="経営者と共に、継続率とLTVを最大化するコミュニティ戦略。2025年最新の提案書。">
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DMVNQFQWB7"></script>
+    <meta name="robots" content="noindex, nofollow">
+    <title>コミュニティを活用した継続率・LTV向上のためのコンサルティングプラン</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-DMVNQFQWB7');
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            dark: '#0B1120', // Deep dark blue
+                            primary: '#1E293B', // Slate 800
+                            accent: '#F59E0B', // Amber 500 (Gold-ish)
+                            light: '#F8FAFC', // Slate 50
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['"Noto Sans JP"', 'sans-serif'],
+                    }
+                }
+            }
+        }
     </script>
+    <style>
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            background-color: #0B1120;
+            color: #F8FAFC;
+        }
 
-    <!-- OGP Settings -->
-    <meta property="og:title" content="コミュニティを活用した継続率・売上の仕組み化 | Community Strategy 2025">
-    <meta property="og:description" content="経営者と共に、継続率とLTVを最大化するコミュニティ戦略。2025年最新の提案書。">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://example.com">
-    <meta property="og:image" content="forogp.png">
-    <meta property="og:site_name" content="Community Strategy 2025">
-    <meta property="og:locale" content="ja_JP">
-    <meta name="twitter:card" content="summary_large_image">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Noto+Sans+JP:wght@400;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <!-- Font Awesome for Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <script defer src="/_vercel/insights/script.js"></script>
+        .gold-gradient {
+            background: linear-gradient(135deg, #F59E0B 0%, #FBBF24 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .gold-border {
+            border-color: #F59E0B;
+        }
+    </style>
 </head>
 
-<body>
-
-    <!-- Navigation -->
-    <nav style="position: absolute; top: 0; left: 0; width: 100%; padding: 20px; z-index: 100;">
-        <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
-            <div class="logo" style="font-weight: 800; font-size: 1.5rem; color: var(--white);">
-                COMMUNITY <span style="color: var(--accent-color);">STRATEGY</span>
-            </div>
-            <a href="#pricing" class="btn" style="padding: 10px 24px; font-size: 0.9rem;">無料個別相談を予約する</a>
-        </div>
-    </nav>
+<body class="antialiased leading-relaxed">
 
     <!-- Hero Section -->
-    <section class="hero">
-        <div class="container hero-content">
-            <div class="hero-text fade-in">
-                <span
-                    style="color: var(--accent-color); font-weight: 700; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 10px; display: block;">2025年
-                    最新提案書</span>
-                <h1>コミュニティを活用して<br>継続率とLTVを<br><span style="color: var(--accent-color);">仕組み化</span>する</h1>
-                <p>経営者と共に創る、持続可能な成長戦略。<br>顧客との絆を深め、ビジネスを次のステージへ。</p>
-                <a href="#pricing" class="btn">無料個別相談を予約する <i class="fas fa-arrow-right"
-                        style="margin-left: 8px;"></i></a>
+    <header
+        class="relative py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-brand-dark to-brand-primary overflow-hidden">
+        <div class="absolute top-0 left-0 w-full h-2 bg-brand-accent"></div>
+        <div class="max-w-4xl mx-auto text-center relative z-10">
+            <p class="text-brand-accent font-bold tracking-widest mb-4">COMMUNITY STRATEGY</p>
+            <h1 class="text-3xl md:text-5xl font-bold mb-6 leading-tight">
+                コミュニティを活用した<br>
+                <span class="text-brand-accent">継続率・LTV向上</span>のための<br>
+                コンサルティングプラン
+            </h1>
+            <p class="text-gray-400 text-sm md:text-base">
+                経営者と共に創る、持続可能な成長戦略。<br>
+                顧客との絆を深め、ビジネスを次のステージへ。
+            </p>
+        </div>
+    </header>
+
+
+
+    <!-- Plans Section -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-brand-dark">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12 text-white">プランのご案内</h2>
+
+            <!-- Comparison Table -->
+            <div class="mb-20 overflow-x-auto">
+                <h3 class="text-2xl font-bold text-center mb-8 text-white">プラン比較表</h3>
+                <table class="w-full text-left border-collapse">
+                    <thead>
+                        <tr>
+                            <th class="p-4 border-b-2 border-gray-700 bg-gray-800/50 text-gray-400 font-normal w-1/4">項目
+                            </th>
+                            <th
+                                class="p-4 border-b-2 border-gray-700 bg-gray-800/50 text-white font-bold text-center w-1/4">
+                                梅プラン<br><span class="text-xs font-normal">スポット診断</span></th>
+                            <th
+                                class="p-4 border-b-2 border-brand-accent bg-brand-accent/10 text-brand-accent font-bold text-center w-1/4 relative">
+                                <div
+                                    class="absolute -top-6 left-0 w-full text-center text-xs text-brand-accent font-bold">
+                                    RECOMMENDED</div>
+                                竹プラン<br><span class="text-xs font-normal">3ヶ月プログラム</span>
+                            </th>
+                            <th
+                                class="p-4 border-b-2 border-gray-700 bg-gray-800/50 text-white font-bold text-center w-1/4">
+                                松プラン<br><span class="text-xs font-normal">PDCA6ヶ月</span></th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-sm text-gray-300">
+                        <tr class="hover:bg-gray-800/30 transition">
+                            <td class="p-4 border-b border-gray-800 font-bold text-white">価格（税別）</td>
+                            <td class="p-4 border-b border-gray-800 text-center font-bold text-lg">10万円</td>
+                            <td class="p-4 border-b border-gray-800 text-center font-bold text-xl text-brand-accent">
+                                60万円</td>
+                            <td class="p-4 border-b border-gray-800 text-center font-bold text-lg">120万円</td>
+                        </tr>
+                        <tr class="hover:bg-gray-800/30 transition">
+                            <td class="p-4 border-b border-gray-800">継続率診断</td>
+                            <td class="p-4 border-b border-gray-800 text-center">60分</td>
+                            <td class="p-4 border-b border-gray-800 text-center">60分</td>
+                            <td class="p-4 border-b border-gray-800 text-center">90分</td>
+                        </tr>
+                        <tr class="hover:bg-gray-800/30 transition">
+                            <td class="p-4 border-b border-gray-800">現状分析レポート</td>
+                            <td class="p-4 border-b border-gray-800 text-center text-brand-accent">●</td>
+                            <td class="p-4 border-b border-gray-800 text-center text-brand-accent">●</td>
+                            <td class="p-4 border-b border-gray-800 text-center text-brand-accent">●</td>
+                        </tr>
+                        <tr class="hover:bg-gray-800/30 transition">
+                            <td class="p-4 border-b border-gray-800">改善戦略設計</td>
+                            <td class="p-4 border-b border-gray-800 text-center">改善案3つ</td>
+                            <td class="p-4 border-b border-gray-800 text-center text-brand-accent">●</td>
+                            <td class="p-4 border-b border-gray-800 text-center text-brand-accent">●</td>
+                        </tr>
+                        <tr class="hover:bg-gray-800/30 transition">
+                            <td class="p-4 border-b border-gray-800">AIboo!</td>
+                            <td class="p-4 border-b border-gray-800 text-center text-gray-600">×</td>
+                            <td class="p-4 border-b border-gray-800 text-center">体験版</td>
+                            <td class="p-4 border-b border-gray-800 text-center">個別版</td>
+                        </tr>
+                        <tr class="hover:bg-gray-800/30 transition">
+                            <td class="p-4 border-b border-gray-800">コンサルティング</td>
+                            <td class="p-4 border-b border-gray-800 text-center text-gray-600">×</td>
+                            <td class="p-4 border-b border-gray-800 text-center">月1回 × 3回</td>
+                            <td class="p-4 border-b border-gray-800 text-center">月2回 × 6ヶ月</td>
+                        </tr>
+                        <tr class="hover:bg-gray-800/30 transition">
+                            <td class="p-4 border-b border-gray-800">チャットサポート</td>
+                            <td class="p-4 border-b border-gray-800 text-center">1ヶ月</td>
+                            <td class="p-4 border-b border-gray-800 text-center">3ヶ月</td>
+                            <td class="p-4 border-b border-gray-800 text-center">6ヶ月</td>
+                        </tr>
+                        <tr class="hover:bg-gray-800/30 transition">
+                            <td class="p-4 border-b border-gray-800">効果測定</td>
+                            <td class="p-4 border-b border-gray-800 text-center text-gray-600">×</td>
+                            <td class="p-4 border-b border-gray-800 text-center text-brand-accent">●</td>
+                            <td class="p-4 border-b border-gray-800 text-center text-brand-accent">●</td>
+                        </tr>
+                        <tr class="hover:bg-gray-800/30 transition">
+                            <td class="p-4 border-b border-gray-800">運用マニュアル</td>
+                            <td class="p-4 border-b border-gray-800 text-center text-gray-600">×</td>
+                            <td class="p-4 border-b border-gray-800 text-center text-gray-600">×</td>
+                            <td class="p-4 border-b border-gray-800 text-center text-brand-accent">●</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-            <div class="hero-image fade-in">
-                <div class="hero-image-container">
-                    <div class="hero-target-text">
-                        既にコミュニティを運営している<br>
-                        経営者・事業責任者向けの<br>
-                        <span class="highlight">構造診断</span>です
+
+            <div class="grid md:grid-cols-3 gap-8">
+
+                <!-- Ume Plan -->
+                <div class="bg-brand-primary rounded-xl overflow-hidden border border-gray-700 flex flex-col h-full">
+                    <div class="py-1 text-sm font-bold invisible">RECOMMENDED</div>
+                    <div class="p-6 border-b border-gray-700 h-[210px] flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-xl font-bold text-white mb-2">■ 梅プラン</h3>
+                            <p class="text-gray-400 text-sm mb-4">スポット診断</p>
+                        </div>
+                        <div class="text-3xl font-bold text-brand-accent">10万円<span
+                                class="text-sm text-gray-400 font-normal ml-1">（税別）</span></div>
                     </div>
-                    <img src="slides_preview.png" alt="Slide Preview" class="hero-slide-img">
-                    <p class="hero-image-caption">※資料は無料個別相談会でお渡しします。</p>
+                    <div class="p-6 flex-grow flex flex-col">
+                        <h4 class="font-bold text-white mb-3">＜こんな方におすすめ＞</h4>
+                        <ul class="space-y-2 text-gray-300 text-sm mb-6 flex-grow">
+                            <li class="flex items-start"><span class="text-green-400 mr-2">✅</span>まずは現状の課題を明確にしたい</li>
+                            <li class="flex items-start"><span class="text-green-400 mr-2">✅</span>自社で実装できるか試したい</li>
+                            <li class="flex items-start"><span class="text-green-400 mr-2">✅</span>予算を抑えて相談したい</li>
+                        </ul>
+
+                        <div class="bg-gray-800/50 p-3 rounded text-xs text-gray-400 mb-6">
+                            <strong>＜スケジュール＞</strong><br>
+                            ・ご契約後、1週間以内に診断実施<br>
+                            ・診断後、3営業日以内にレポート提出
+                        </div>
+
+                        <div class="mt-auto">
+                            <a href="https://utage-system.com/p/JUXIcP4JokGv"
+                                class="block w-full bg-gray-600 hover:bg-gray-500 text-white font-bold py-3 rounded text-center transition duration-300">
+                                このプランに申し込む
+                            </a>
+                        </div>
+                    </div>
                 </div>
+
+                <!-- Take Plan (Recommended - Center) -->
+                <div
+                    class="bg-gradient-to-b from-gray-800 to-gray-900 rounded-xl overflow-hidden border-2 border-brand-accent flex flex-col relative shadow-2xl shadow-brand-accent/20 z-10 h-full">
+                    <div class="bg-brand-accent text-brand-dark text-center py-1 text-sm font-bold">RECOMMENDED</div>
+                    <div class="p-6 border-b border-gray-700 h-[210px] flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-2xl font-bold text-white mb-2">■ 竹プラン</h3>
+                            <p class="text-gray-400 text-sm mb-4">改善3ヶ月スタートプログラム</p>
+                        </div>
+                        <div class="text-4xl font-bold text-brand-accent">60万円<span
+                                class="text-sm text-gray-400 font-normal ml-1">（税別）</span></div>
+                    </div>
+                    <div class="p-6 flex-grow flex flex-col">
+                        <h4 class="font-bold text-white mb-3">＜こんな方におすすめ＞</h4>
+                        <ul class="space-y-2 text-gray-300 text-sm mb-6 flex-grow">
+                            <li class="flex items-start"><span class="text-green-400 mr-2">✅</span>既存の改善点の可視化</li>
+                            <li class="flex items-start"><span class="text-green-400 mr-2">✅</span>優先順位の確定</li>
+                            <li class="flex items-start"><span class="text-green-400 mr-2">✅</span>最初の改善着手</li>
+                        </ul>
+
+                        <div
+                            class="bg-brand-accent/10 border border-brand-accent/20 p-3 rounded text-xs text-gray-300 mb-6">
+                            <strong class="text-brand-accent">＜スケジュール＞</strong><br>
+                            ・1ヶ月目：診断・可視化<br>
+                            ・2ヶ月目：優先順位策定<br>
+                            ・3ヶ月目：改善スタート
+                        </div>
+
+                        <div class="mt-auto">
+                            <a href="https://utage-system.com/p/EFtbtQZ4R5ql"
+                                class="block w-full bg-brand-accent hover:bg-yellow-400 text-brand-dark font-bold py-4 rounded text-center transition duration-300 shadow-lg transform hover:scale-105">
+                                このプランに申し込む
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Matsu Plan -->
+                <div
+                    class="bg-brand-primary rounded-xl overflow-hidden border border-gray-700 flex flex-col relative shadow-xl h-full">
+                    <div class="py-1 text-sm font-bold invisible">RECOMMENDED</div>
+                    <div class="p-6 border-b border-gray-700 h-[210px] flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-xl font-bold text-white mb-2">■ 松プラン</h3>
+                            <p class="text-gray-400 text-sm mb-4">改善PDCA6ヶ月プログラム</p>
+                        </div>
+                        <div class="text-3xl font-bold text-brand-accent">120万円<span
+                                class="text-sm text-gray-400 font-normal ml-1">（税別）</span></div>
+                    </div>
+                    <div class="p-6 flex-grow flex flex-col">
+                        <h4 class="font-bold text-white mb-3">＜こんな方におすすめ＞</h4>
+                        <ul class="space-y-2 text-gray-300 text-sm mb-6 flex-grow">
+                            <li class="flex items-start"><span class="text-green-400 mr-2">✅</span>新規施策の導入</li>
+                            <li class="flex items-start"><span class="text-green-400 mr-2">✅</span>1クールで成果を出したい</li>
+                            <li class="flex items-start"><span class="text-green-400 mr-2">✅</span>効果測定の自社導入</li>
+                        </ul>
+
+                        <div class="bg-gray-800/50 p-3 rounded text-xs text-gray-400 mb-6">
+                            <strong>＜スケジュール＞</strong><br>
+                            ・1〜3ヶ月目：構造設計・優先順位・初期改善（＝竹）<br>
+                            ・4〜6ヶ月目：効果測定 → 修正 → 定着（マニュアル化）
+                        </div>
+
+                        <div class="mt-auto">
+                            <a href="https://utage-system.com/p/f4ngWLIbj4sq"
+                                class="block w-full bg-gray-600 hover:bg-gray-500 text-white font-bold py-3 rounded text-center transition duration-300">
+                                このプランに申し込む
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
 
-    <!-- Problem Section -->
-    <section class="problem" id="problem">
-        <div class="container">
-            <span class="section-subtitle">The Challenge</span>
-            <h2 class="section-title fade-in">こんなお悩みはありませんか？</h2>
-            <div class="problem-grid fade-in" style="margin-top: 50px;">
-                <div class="problem-card">
-                    <i class="fas fa-users-slash problem-icon"></i>
-                    <h3>退会率が高く、LTVが伸びない</h3>
-                    <p>新規獲得に広告費を使っても、定着せずに離脱されてしまい、売上が積み上がらず悩んでいる。</p>
-                </div>
-                <div class="problem-card">
-                    <i class="fas fa-headset problem-icon"></i>
-                    <h3>顧客対応が属人化し、現場が疲弊している</h3>
-                    <p>DMや個別質問がスタッフに集中し、顧客同士が助け合う仕組みができず、運営コストが下がらない。</p>
-                </div>
-                <div class="problem-card">
-                    <i class="fas fa-cogs problem-icon"></i>
-                    <h3>再現性のある成長モデルが作れていない</h3>
-                    <p>コミュニティを立ち上げても、売上改善や定着率アップにつながる“運営設計”ができていない。</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Solution Section -->
-    <section class="solution" id="solution">
-        <div class="container">
-            <div class="solution-content fade-in">
-                <span class="section-subtitle">The Solution</span>
-                <h2 class="section-title">コミュニティ戦略が<br>ビジネスを変える</h2>
-                <p style="color: var(--text-dim); font-size: 1.1rem; margin-top: 20px;">
-                    単なる「集まり」ではなく、ビジネスの成長エンジンとしてのコミュニティを構築します。<br>
-                    本資料では、その具体的な設計図と実践ステップを公開しています。
-                </p>
-            </div>
-
-            <div class="solution-features">
-                <div class="feature-item fade-in">
-                    <div class="feature-number">01</div>
-                    <h3>継続率の向上</h3>
-                    <p style="color: var(--text-dim);">顧客同士の繋がりと帰属意識を高め、自然と定着する仕組みを作ります。</p>
-                </div>
-                <div class="feature-item fade-in">
-                    <div class="feature-number">02</div>
-                    <h3>LTVの最大化</h3>
-                    <p style="color: var(--text-dim);">ファン化した顧客が新たな価値を感じ続け、長期的な収益基盤となります。</p>
-                </div>
-                <div class="feature-item fade-in">
-                    <div class="feature-number">03</div>
-                    <h3>健全な運営設計</h3>
-                    <p style="color: var(--text-dim);">AIを活用し、負荷を減らしながらコミュニティが健全に回る運営体制をつくります。</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Content Preview Section -->
-    <section class="preview">
-        <div class="container">
-            <span class="section-subtitle">What's Inside</span>
-            <h2 class="section-title fade-in">資料の内容</h2>
-            <div class="chapter-list fade-in" style="margin-top: 40px;">
-                <div class="chapter-item">
-                    <div class="chapter-number">01</div>
-                    <div class="chapter-info">
-                        <h4>コミュニティ戦略の全体像</h4>
-                        <p style="font-size: 0.9rem; color: var(--text-dim);">なぜ今コミュニティが必要なのか？市場背景と基本概念。</p>
-                    </div>
-                </div>
-                <div class="chapter-item">
-                    <div class="chapter-number">02</div>
-                    <div class="chapter-info">
-                        <h4>継続率を高める3つの要素</h4>
-                        <p style="font-size: 0.9rem; color: var(--text-dim);">心理学的アプローチに基づく、人が離れない場所の作り方。</p>
-                    </div>
-                </div>
-                <div class="chapter-item">
-                    <div class="chapter-number">03</div>
-                    <div class="chapter-info">
-                        <h4>LTV最大化のロードマップ</h4>
-                        <p style="font-size: 0.9rem; color: var(--text-dim);">参加からロイヤルカスタマー化までの具体的なステップ。</p>
-                    </div>
-                </div>
-                <div class="chapter-item">
-                    <div class="chapter-number">04</div>
-                    <div class="chapter-info">
-                        <h4>運営体制と仕組み化</h4>
-                        <p style="font-size: 0.9rem; color: var(--text-dim);">最小限のリソースで最大限の効果を出す運営オペレーション。</p>
-                    </div>
-                </div>
-                <!-- Add more chapters as needed -->
-            </div>
-        </div>
-    </section>
-
-    <!-- Consultation Offer Section -->
-    <section class="consultation-offer" id="consultation-offer">
-        <div class="container">
-            <div class="offer-header fade-in">
-                <span class="section-subtitle">Offer</span>
-                <h2 class="section-title">コミュニティ戦略 個別コンサルティング（先着3社）</h2>
-                <p class="offer-intro">
-                    経営者・事業責任者の方向けに、<br>
-                    コミュニティ活用の可能性と改善ポイントを<br>
-                    60分で明確にする個別面談を実施しています。
-                </p>
-            </div>
-
-            <div class="offer-details fade-in">
-                <div class="detail-box">
-                    <h3>【個別相談で行うこと】</h3>
-                    <ul class="detail-list">
-                        <li><i class="fas fa-check"></i> 現状のヒアリング（事業・顧客・運営体制）</li>
-                        <li><i class="fas fa-check"></i> 既存コミュニティの改善ポイント診断</li>
-                        <li><i class="fas fa-check"></i> 新規コミュニティの可能性と設計の方向性</li>
-                        <li><i class="fas fa-check"></i> AI・IT・自動化ツールの活用提案</li>
-                        <li><i class="fas fa-check"></i> 必要な方へ導入支援プログラムもご案内</li>
+    <!-- Payment & Guarantee -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-brand-dark">
+        <div class="max-w-3xl mx-auto text-center">
+            <div class="grid md:grid-cols-2 gap-8 mb-12">
+                <div class="bg-brand-primary p-6 rounded-lg border border-gray-700">
+                    <h3 class="text-lg font-bold text-white mb-4">【お支払い方法】</h3>
+                    <ul class="text-gray-300 text-left inline-block">
+                        <li class="mb-2">・銀行振込（一括または分割）</li>
+                        <li>・クレジットカード（UTAGE決済）</li>
                     </ul>
-                    <div class="offer-price">
-                        ※通常33,000円 → <span class="free-highlight">初回無料</span>（先着3社/月）
-                    </div>
                 </div>
-            </div>
-
-            <div class="offer-benefits fade-in">
-                <span class="section-subtitle">Benefits</span>
-                <h3 class="subsection-title">この面談で得られる3つの成果</h3>
-                <div class="benefits-grid">
-                    <div class="benefit-card">
-                        <div class="benefit-number">01</div>
-                        <h3>第三者からの冷静で専門的な視点</h3>
-                        <p>社内だけでは気づけない視点から、改善ポイントを整理します。</p>
-                    </div>
-                    <div class="benefit-card">
-                        <div class="benefit-number">02</div>
-                        <h3>コミュニティを軸とした成長ポイントの発見</h3>
-                        <p>既存データや現状を基に、「離脱要因」「伸ばすべき指標」「改善できる運営ポイント」を提示。</p>
-                    </div>
-                    <div class="benefit-card">
-                        <div class="benefit-number">03</div>
-                        <h3>AI・IT・自動化の可能性を整理</h3>
-                        <p>御社の規模に応じて、無理なく導入できるツールや仕組みを提案します。</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="offer-target fade-in">
-                <h3 class="subsection-title">対象となる方</h3>
-                <div class="checklist-container">
-                    <ul class="checklist">
-                        <li><i class="fas fa-check-circle"></i>
-                            <div>すでにコミュニティを運営している</div>
-                        </li>
-                        <li><i class="fas fa-check-circle"></i>
-                            <div>継続・停滞・属人化に課題を感じている</div>
-                        </li>
-                        <li><i class="fas fa-check-circle"></i>
-                            <div>離脱率・LTV・運営負荷を改善したい</div>
-                        </li>
-                    </ul>
-                    <p class="checklist-supplement">
-                        ※法人の経営者・事業責任者向け<br>
-                        （社員50名程度までを想定しています）
-                    </p>
-                    <p class="checklist-note">
-                        ※この診断は、以下の方には向いていません。<br>
-                        これからコミュニティを作りたい方<br>
-                        集客ノウハウを探している方
+                <div class="bg-brand-primary p-6 rounded-lg border border-gray-700">
+                    <h3 class="text-lg font-bold text-white mb-4">【成果保証】</h3>
+                    <p class="text-gray-300">
+                        成果が出なかった場合、<br>
+                        <span class="text-brand-accent font-bold">追加1ヶ月を無料で延長</span>します。
                     </p>
                 </div>
             </div>
 
-            <div class="offer-cta fade-in">
-                <a href="https://utage-system.com/p/sLsd94vSxFsI" class="btn btn-large" target="_blank">無料個別相談を予約する</a>
-                <p class="cta-sub">ご都合の良い日時をカレンダーからお選びいただけます。</p>
+            <div class="mt-12">
+                <a href="mailto:msakai@msakai.co?subject=お問い合わせ"
+                    class="inline-block bg-brand-accent hover:bg-yellow-400 text-brand-dark font-bold py-4 px-12 rounded-full transition duration-300 transform hover:scale-105 shadow-lg">
+                    ご不明な点はこちらからご質問ください
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- Author Section -->
-    <section class="author">
-        <div class="container">
-            <span class="section-subtitle">PROFILE</span>
-            <div class="author-card fade-in">
-                <img src="profile_photo.png" alt="さかい美佐" class="author-img">
-                <div class="author-info">
-                    <span class="author-role">コミュニティ戦略家</span>
-                    <h3>さかい美佐（msakai合同会社）</h3>
-                    <div class="profile-content" style="text-align: left; line-height: 1.8;">
-                        <p style="margin-bottom: 15px;">外資IT企業にて SE・IT講師として基幹業務改善に従事</p>
-                        <p style="margin-bottom: 15px;"><strong>BtoCスクールを12年間 経営</strong>、広告費ゼロで延べ1,000名以上を集客</p>
-                        <p style="margin-bottom: 15px;">
-                            <strong>アルマ・クリエイション株式会社</strong><br>
-                            コミュニティマネージャーとして、<br>
-                            全コミュニティの企画・運営・LTV向上を担当
-                        </p>
-                        <p style="margin-bottom: 15px;">
-                            <strong>社長室として</strong><br>
-                            業務改善、赤字事業の黒字化（1年以内／詳細非公開）、<br>
-                            財務およびM&A準備にも関与
-                        </p>
-                        <p style="margin-bottom: 15px;">
-                            <strong>講師として</strong><br>
-                            経営者コミュニティ向けに、AI活用・ITツール導入・業務効率化に関する<br>
-                            コンテンツ制作および講義を実施
-                        </p>
-                        <p style="margin-bottom: 15px;">
-                            現在は企業向けに<br>
-                            コミュニティ導入支援／継続率向上／LTV最大化／運営改善 を提供
-                        </p>
-                        <p style="margin-bottom: 0;">
-                            著書『小さな会社のためのコミュニティ運営の教科書』は <strong>Amazon2部門1位</strong>
-                        </p>
+    <!-- Profile Section -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-brand-primary border-t border-gray-800">
+        <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-start gap-8">
+            <div class="flex-shrink-0 mx-auto md:mx-0">
+                <div class="w-48 h-48 rounded-full overflow-hidden border-4 border-brand-accent shadow-xl">
+                    <img src="profile.png" alt="さかい美佐" class="w-full h-full object-cover">
+                </div>
+            </div>
+            <div class="flex-grow text-center md:text-left">
+                <p class="text-brand-accent font-bold tracking-wider mb-1">コミュニティ戦略家</p>
+                <h3 class="text-2xl font-bold text-white mb-4">さかい美佐 <span
+                        class="text-base font-normal text-gray-400 ml-2">（msakai合同会社）</span></h3>
+
+                <div class="space-y-3 text-gray-300 text-sm leading-relaxed">
+                    <p>
+                        外資IT企業にて SE・IT講師として基幹業務改善に従事。<br>
+                        BtoCスクールを12年間 経営、広告費ゼロで延べ1,000名以上を集客。
+                    </p>
+                    <p>
+                        アルマ・クリエイション株式会社 コミュニティマネージャーとして、<br>
+                        全コミュニティの企画・運営・LTV向上を担当。
+                    </p>
+                    <p>
+                        社長室として業務改善、赤字事業の黒字化（1年以内／詳細非公開）、<br>
+                        財務およびM&A準備にも関与。
+                    </p>
+                    <p>
+                        講師として経営者コミュニティ向けに、AI活用・ITツール導入・業務効率化に関する<br>
+                        コンテンツ制作および講義を実施。
+                    </p>
+                    <p class="font-bold text-white">
+                        現在は企業向けに コミュニティ導入支援／継続率向上／LTV最大化／運営改善 を提供。
+                    </p>
+                    <div class="mt-4 inline-block bg-gray-800 px-4 py-2 rounded border border-gray-700">
+                        <span class="text-brand-accent">🏆</span> 著書『小さな会社のためのコミュニティ運営の教科書』は Amazon2部門1位
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Trust Bridge Section -->
-    <section class="trust-bridge">
-        <div class="container">
-            <div class="trust-content fade-in">
-                <span class="section-subtitle">Message</span>
-                <p>
-                    この個別相談は、コミュニティ運営・業務改善・システム領域・マーケティングまで<br>
-                    横断的に経験してきた私（さかい美佐）が直接対応いたします。<br><br>
-                    経営者の右腕として伴走し、<br>
-                    <strong>「現場が回る仕組み」「再現性のある成長モデル」</strong>を一緒に設計してきた経験をもとに、<br>
-                    御社の状況に合わせた最適なアドバイスをお届けします。
-                </p>
-            </div>
-        </div>
-    </section>
 
-    <!-- Pricing Section -->
-    <section class="pricing" id="pricing">
-        <div class="container">
-            <div class="pricing-card fade-in">
-                <div class="pricing-badge">Special Offer</div>
-                <h2 style="margin-bottom: 20px;">無料個別相談を予約する</h2>
-                <p style="color: var(--text-dim); margin-bottom: 30px;">
-                    現状の課題整理と、コミュニティ戦略の可能性を<br>
-                    60分で明確にします。
-                </p>
 
-                <!-- Price Removed -->
-
-                <ul
-                    style="text-align: left; margin-bottom: 30px; color: var(--text-light); max-width: 300px; margin-left: auto; margin-right: auto;">
-                    <li style="margin-bottom: 10px;"><i class="fas fa-check"
-                            style="color: var(--accent-color); margin-right: 10px;"></i> オンライン（Zoom）開催</li>
-                    <li style="margin-bottom: 10px;"><i class="fas fa-check"
-                            style="color: var(--accent-color); margin-right: 10px;"></i> 無理な勧誘は一切ありません</li>
-                    <li style="margin-bottom: 10px;"><i class="fas fa-check"
-                            style="color: var(--accent-color); margin-right: 10px;"></i> 要約レポート提供</li>
-                </ul>
-
-                <a href="https://utage-system.com/p/sLsd94vSxFsI" class="btn" style="width: 100%;"
-                    target="_blank">無料個別相談を予約する</a>
-                <p style="font-size: 0.8rem; color: var(--text-dim); margin-top: 15px;">※席数に限りがありますのでお早めに</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 <a href="https://msakai.co" target="_blank"
-                    style="color: inherit; text-decoration: none;">msakai合同会社</a>. All Rights Reserved.</p>
-        </div>
+    <footer class="py-8 bg-black text-center text-gray-600 text-sm">
+        &copy; 2025 msakai合同会社. All Rights Reserved.
     </footer>
 
-    <script src="script.js"></script>
+</body>
 
 </html>
